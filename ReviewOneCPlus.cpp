@@ -14,9 +14,12 @@ int main() {
   double gravityMars = 3.73;
   double gravityEarth = 9.81;
   double marsWeight;
-  // Add your code below  
+    
+  // Input method to get the weight of the item.
   std::cout << "Enter the weight of the item: ";
   std::cin >> weight;
+
+  // Computing the weight of the object on Mars
   marsWeight = (weight * gravityMars) / gravityEarth;
 
   std::cout << "The weight on mars of the item would be: " << marsWeight << "." << "\n";
